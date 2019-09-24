@@ -1,14 +1,15 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "teams": [
+    { "id": 1, "title": "Development Team", "manager": "Stephan"},
+    { "id": 2, "title": "Testing Team", "manager": "Victor"},
+    { "id": 3, "title": "HR Team", "Rosa"}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "members": [
+    { "id": 1, "name": "John", "manager": "Stephan" },
+    { "id": 2, "name": "Dave", "manager": "Victor" },
+    { "id": 3, "name": "David", "manager": "Stephan" },
+    { "id": 4, "name": "Max", "manager": "Rosa"},
+    { "id": 5, "name": "Bob", "manager": "Victor"},
+    { "id": 6, "name": "Alex", "manager": "Rosa"}
+  ]
 }
